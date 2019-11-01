@@ -1,0 +1,8 @@
+name: 'Pw Group Icon List'
+type: module
+description: 'Provides paragraph group icon list with title and long text with reference to pw single icon list'
+core: 8.x
+package: 'PixelWeb'
+dependencies:
+  - pw_single_icon_list
+  - svg_image

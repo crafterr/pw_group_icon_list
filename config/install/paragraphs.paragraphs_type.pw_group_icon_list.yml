@@ -1,0 +1,7 @@
+status: true
+dependencies: {  }
+id: pw_group_icon_list
+label: 'Pw Group Icon List'
+icon_uuid: null
+description: 'Provides paragraph group icon list with title and long text with reference to pw single icon list'
+behavior_plugins: {  }

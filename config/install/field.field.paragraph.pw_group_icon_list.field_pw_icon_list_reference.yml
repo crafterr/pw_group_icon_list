@@ -1,0 +1,32 @@
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pw_icon_list_reference
+    - paragraphs.paragraphs_type.pw_group_icon_list
+    - paragraphs.paragraphs_type.pw_single_icon_list
+  module:
+    - entity_reference_revisions
+id: paragraph.pw_group_icon_list.field_pw_icon_list_reference
+field_name: field_pw_icon_list_reference
+entity_type: paragraph
+bundle: pw_group_icon_list
+label: 'Icon List'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      pw_single_icon_list: pw_single_icon_list
+    target_bundles_drag_drop:
+      pw_group_icon_list:
+        weight: 3
+        enabled: false
+      pw_single_icon_list:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions
